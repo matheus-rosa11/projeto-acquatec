@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: black;
+}
+
+.header {
+    border-bottom: 2px solid #32b9cd;
+}
+
+.container {
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul {
+    color: #e3b062;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly ;
+    list-style: none;
+}
+
+.header .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container ul a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
+ul a:hover {
+    color: #32b9cd;
+}
+
+.agora {
+    font-weight: 600;
+    color: #eb9a21;
+}
