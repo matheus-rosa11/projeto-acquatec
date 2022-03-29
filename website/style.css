@@ -33,10 +33,74 @@ body {
 }
 
 ul a:hover {
-    color: #32b9cd;
+    color: #ffd08a;
 }
 
 .agora {
     font-weight: 600;
     color: #eb9a21;
+}
+
+/* BANNER */
+
+.banner {
+    height: 500px;
+    background-image: url("imagens/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .container {
+    height: 500px;
+    align-items: center;
+}
+
+.banner p {
+    color: white;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    margin-left: 350px;
+}
+
+.banner span {
+    font-weight: 800;
+}
+
+/* LOGIN */
+
+.banner .card {
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ad3e42;
+}
+
+.card input {
+    height: 30px;
+    border: 1px solid #e75459;
+    border-radius: 4px;
 }
